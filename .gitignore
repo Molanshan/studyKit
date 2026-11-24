@@ -1,0 +1,24 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# android / capacitor build output
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+*.apk
+*.apk.*
+*.aab
+
+# logs
+*.log
+npm-debug.log*
